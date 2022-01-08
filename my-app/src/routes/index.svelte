@@ -14,16 +14,16 @@
 	<h1>
 		<div class="welcome">
 			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
+				
+				<img src="https://github.com/tannerpace/Dronelab/blob/master/DJI_0041-HDR%20(1).jpg?raw=true" alt="Welcome" />
 			</picture>
 		</div>
 
-		to your new<br />SvelteKit app
+This is a Photo I took at my friends wedding.
 	</h1>
 
 	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
+
 	</h2>
 
 	<Counter />
