@@ -22,12 +22,10 @@
 	<h1>About this app</h1>
 
 	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
+This was going to be an App That I made, but it was already made for me.
 	</p>
 
-	<!-- TODO lose the @next! -->
-	<pre>npm init svelte@next</pre>
+
 
 	<p>
 		The page you're looking at is purely static HTML, with no client-side interactivity needed.
