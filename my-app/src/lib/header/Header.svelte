@@ -11,16 +11,14 @@
 	<nav>
 
 		<ul>
-			<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-			<li class:active={$page.url.pathname === '/about'}>
-				<a sveltekit:prefetch href="/about">About</a>
+			<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Welcome</a></li>
+			<li class:active={$page.url.pathname === '/Projects'}>
+				<a sveltekit:prefetch href="/projects">Projects</a>
 			</li>
-			<li class:active={$page.url.pathname === '/todos'}>
-				<a sveltekit:prefetch href="/todos">Todos</a>
-			</li>
-      <li class:active={$page.url.pathname === '/tanner'}>
-				<a sveltekit:prefetch href="/tanner">Tanner</a>
-			</li>
+
+      <li class:active={$page.url.pathname === '/Contact'}>
+        <a sveltekit:prefetch href="/contact">Contact</a>
+      </li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
@@ -28,7 +26,8 @@
 	</nav>
 
 	<div class="corner">
-		<!-- TODO put something else here? github link? -->
+		<a href="
+      https://github.com/tannerpace">My github</a>
 	</div>
 </header>
 
@@ -51,11 +50,7 @@
 		height: 100%;
 	}
 
-	.corner img {
-		width: 2em;
-		height: 2em;
-		object-fit: contain;
-	}
+
 
 	nav {
 		display: flex;

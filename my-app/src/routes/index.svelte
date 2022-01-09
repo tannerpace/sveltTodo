@@ -1,59 +1,35 @@
 <script context="module">
+	import { browser, dev } from '$app/env';
+
+	// we don't need any JS on this page, though we'll load
+	// it in dev so that we get hot module replacement...
+	export const hydrate = dev;
+
+	// ...but if the client-side router is already loaded
+	// (i.e. we came here from elsewhere in the app), use it
+	export const router = browser;
+
+	// since there's no dynamic data here, we can prerender
+	// it so that it gets served as a static asset in prod
 	export const prerender = true;
 </script>
 
-<script>
-	import Counter from '$lib/Counter.svelte';
-</script>
-
 <svelte:head>
-	<title>Home</title>
+	<title>Welcome</title>
 </svelte:head>
 
-<section>
-	<h1>
-		<div class="welcome">
-			<picture>
-				
-				<img src="https://github.com/tannerpace/Dronelab/blob/master/DJI_0041-HDR%20(1).jpg?raw=true" alt="Welcome" />
-			</picture>
-		</div>
+<div class="content">
+	<h1>Hi I am <a href="https://www.tannerbleakley.com">Tanner</a></h1>
 
-This is a Photo I took at my friends wedding.
-	</h1>
-
-	<h2>
-
-	</h2>
-
-	<Counter />
-</section>
+	<p>
+    I am a software engineer based in the Charleston South Carolina area.
+    I have a passion for building software that improves the lives of people.
+</div>
 
 <style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
-	}
-
-	h1 {
+	.content {
 		width: 100%;
-	}
-
-	.welcome {
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
+		max-width: var(--column-width);
+		margin: var(--column-margin-top) auto 0 auto;
 	}
 </style>
