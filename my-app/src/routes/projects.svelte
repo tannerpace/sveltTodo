@@ -36,7 +36,7 @@
       </a>
 
       <a href="https://tannerpace.github.io/Todo-React/" target="_blank" rel="noopener noreferrer" class="project project-tile">
-        <img class="project-image" src="images/todophoto.png" alt="project" />
+        <img class="project-image" src="svelte_todo.png" alt="project" />
         <p class="project-title">
           <span class="code">&lt;</span>
           A-Todo-App-With-Filter
@@ -44,7 +44,7 @@
         </p>
       </a>
       <a href="https://tannerpace.github.io/MemeMaker/" target="_blank" rel="noopener noreferrer" class="project project-tile">
-        <img class="project-image" src="images/mememaker.png" alt="project" />
+        <img class="project-image" src="mememaker.png" alt="project" />
         <p class="project-title">
           <span class="code">&lt;</span>
           Meme-Maker-App
@@ -54,7 +54,7 @@
       <a href="https://singlepage.d1zqi00jmrlymq.amplifyapp.com/#page-top"
         target="_blank" rel="noopener noreferrer"
         class="project project-tile">
-        <img class="project-image" src="images/air.png" alt="project" />
+        <img class="project-image" src="air.png" alt="project" />
         <p class="project-title">
           <span class="code">&lt;</span>
           Airautonomo-Business-Page
@@ -62,7 +62,7 @@
         </p>
       </a>
       <a href="https://main.d3ofdvrmegm1nc.amplifyapp.com/pages/shapley.html" class="project project-tile">
-        <img class="project-image" src="images/shapley.png" alt="project" />
+        <img class="project-image" src="shaple.png" alt="project" />
         <p class="project-title">
           <span class="code">&lt;</span>
           Tribute-Page-To-Lloyd-Shapley
@@ -70,7 +70,7 @@
         </p>
       </a>
       <a href="https://www.youtube.com/embed/HIsTgGAJVZ4" target="_blank" rel="noopener noreferrer" class="project project-tile">
-        <img class="project-image" src="images/Screen Shot 2021-09-25 at 2.25.22 PM.png " alt="project" />
+        <img class="project-image" src="Screen Shot 2021-09-25 at 2.25.22 PM.png " alt="project" />
         <p class="project-title">
           <span class="code">&lt;</span>
           Full-Stack-Ecommerce-Parts-Store

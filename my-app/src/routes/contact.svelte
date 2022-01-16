@@ -23,7 +23,7 @@
     <div class="contact-section-header">
       <h2>Get in touch to chat about a project!</h2>
 
-      <p class='chat'>Lets get coffee !</p>
+      
 
     </div>
     <div class="contact-links">
