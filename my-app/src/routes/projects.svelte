@@ -19,7 +19,7 @@
 </svelte:head>
 
 <div class="content">
-	<h1>Contact</h1>
+
 </div>
 <div>
   <section id="projects" class="projects-section">
@@ -39,7 +39,7 @@
         <img class="project-image" src="svelte_todo.png" alt="project" />
         <p class="project-title">
           <span class="code">&lt;</span>
-          A-Todo-App-With-Filter
+          Todo-App-Filter
           <span class="code">&#47;&gt;</span>
         </p>
       </a>
