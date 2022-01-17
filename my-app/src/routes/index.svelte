@@ -15,7 +15,7 @@
 </script>
 
 <svelte:head>
-	<title>Welcome</title>
+	<title>Index</title>
 </svelte:head>
 
 <div class="content">

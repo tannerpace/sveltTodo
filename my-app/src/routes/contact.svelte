@@ -4,24 +4,21 @@
 	export const hydrate = dev;
 	export const router = browser;
 	export const prerender = true;
-  
+
 </script>
 
 
 <svelte:head>
-	<title>Projects</title>
+	<title>contact</title>
 </svelte:head>
 
 <div class="content">
   <section id="contact" class="contact-section">
-    <div class="contact-section-header">
-      <h2>Get in touch to chat about a project!</h2>
-    </div>
     <div class="contact-links">
       <a id="profile-link" href="https://github.com/tannerpace" target="_blank" class="btn contact-details" rel="noreferrer"><i
-        class="fab fa-github"></i> GitHub</a>
+        class="fab fa-github"></i> GitHub</a><br>
       <a href="mailto:tannerpace@gmail.com" class="btn contact-details"><i class="fas fa-at"></i> Send an
-        email</a>
+        email</a><br>
       <a href="tel:8435139583" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Leave a message after the beep! 🤪</a>
     </div>
   </section>
