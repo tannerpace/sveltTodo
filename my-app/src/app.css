@@ -5,13 +5,15 @@
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	--pure-white: #ffffff;
-	--primary-color: #b9c6d2;
-	--secondary-color: #d0dde9;
-	--tertiary-color: #edf0f8;
-	--accent-color: #ff3e00;
-	--heading-color: rgba(0, 0, 0, 0.7);
+	--primary-color: rgb(29, 53, 87);
+	--secondary-color: rgb(168, 218, 220);
+	--tertiary-color: #e7edff;
+	--accent-color: rgb(230, 57, 70);
+  --accent-color-dark: rgb(255, 0, 0);
+  --accent-color-light: rgb(255, 255, 255);
+	--heading-color: rgba(1, 14, 20, 0.7);
 	--text-color: #444444;
-	--background-without-opacity: rgba(255, 255, 255, 0.7);
+	--background-without-opacity: rgba(241, 250, 238, 0.7);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
   --column-margin-bottom: 4rem;
@@ -38,6 +40,20 @@
   --column-box-shadow-offset-y: 0;
 }
 
+
+/*
+ * Base styles
+ */
+  
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+
 body {
 	min-height: 100vh;
 	margin: 0;
@@ -53,9 +69,9 @@ body {
 body::before {
 	content: '';
 	width: 80vw;
-	height: 100vh;
+	height: 90vh;
 	position: absolute;
-	top: 0;
+	top: 10vh;
 	left: 10vw;
 	z-index: -1;
 	background: radial-gradient(
@@ -81,10 +97,11 @@ p {
 
 p {
 	line-height: 1.5;
+  color:rgb(5, 16, 6)
 }
 
 a {
-	color: var(--accent-color);
+	color: var(--accent-color-dark);
 	text-decoration: none;
 }
 
