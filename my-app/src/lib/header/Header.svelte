@@ -11,7 +11,11 @@
 	<nav>
 
 		<ul>
+     
 			<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Welcome</a></li>
+       <li class:active={$page.url.pathname === '/about'}>
+        <a sveltekit:prefetch href="/about">about</a>
+      </li>
 			<li class:active={$page.url.pathname === '/projects'}>
 				<a sveltekit:prefetch href="/projects">Projects</a>
 			</li>
@@ -22,6 +26,7 @@
       <li class:active={$page.url.pathname === '/resume'}>
         <a sveltekit:prefetch href="/resume">resume</a>
       </li>
+       
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
@@ -107,7 +112,7 @@
 		align-items: center;
 		padding: 0 1em;
 		color: var(--heading-color);
-		font-weight: 700;
+		font-weight: 500;
 		font-size: 0.8rem;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;

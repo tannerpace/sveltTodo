@@ -22,6 +22,9 @@
       <a href="tel:8435139583" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Leave a message after the beep! 🤪</a>
     </div>
   </section>
+
+
+
 </div>
 
 <style>
@@ -29,5 +32,25 @@
 		width: 100%;
 		max-width: var(--column-width);
 		margin: var(--column-margin-top) auto 0 auto;
+    border-top: 1px solid var(--border-color);
 	}
+
+
+  .contact-details {
+    text-align: center;
+    margin: 100 auto;
+    padding: 0;
+    width: 100%;
+    max-width: var(--column-width);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+
+  }
+
+
 </style>
