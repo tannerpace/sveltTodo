@@ -14,6 +14,28 @@
 	--background-without-opacity: rgba(255, 255, 255, 0.7);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
+  --column-margin-bottom: 4rem;
+  --column-margin-left: 4rem;
+  --column-margin-right: 4rem;
+  --column-padding-top: 2rem;
+  --column-padding-bottom: 2rem;
+  --column-padding-left: 2rem;
+  --column-padding-right: 2rem;
+  --column-border-width: 1px;
+  --column-border-color: #e6e6e6;
+  --column-border-style: solid;
+  --column-border-radius: 0;
+  --column-background-color: #ffffff;
+  --column-background-opacity: 0.7;
+  --column-background-image: none;
+  --column-background-repeat: no-repeat;
+  --column-background-position: center center;
+  --column-background-size: cover;
+  --column-background-attachment: scroll;
+  --column-box-shadow: none;
+  --column-box-shadow-color: #e6e6e6;
+  --column-box-shadow-offset-x: 0;
+  --column-box-shadow-offset-y: 0;
 }
 
 body {
