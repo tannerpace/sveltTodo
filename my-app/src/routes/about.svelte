@@ -34,6 +34,8 @@
 
   Would you like to know more about my expertise and interests? Please feel free to Contact Me any time to chat! "
   </p>
+
+  <img src="https://tannerbleakley.com/images/about.jpg" alt="Tanner Bleakley" class="about-image">
   </div>
 
 
