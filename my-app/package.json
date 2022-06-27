@@ -27,5 +27,6 @@
 		"cookie": "^0.4.1",
 		"web-vitals": "^2.1.4",
 		"@lukeed/uuid": "^2.0.0"
-	}
+	},
+	"extends": "./.svelte-kit/tsconfig.json"
 }
