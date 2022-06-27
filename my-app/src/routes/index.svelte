@@ -1,26 +1,19 @@
 <script context="module">
 	import { browser, dev } from '$app/env';
 
-	// we don't need any JS on this page, though we'll load
-	// it in dev so that we get hot module replacement...
 	export const hydrate = dev;
 
-	// ...but if the client-side router is already loaded
-	// (i.e. we came here from elsewhere in the app), use it
 	export const router = browser;
 
-	// since there's no dynamic data here, we can prerender
-	// it so that it gets served as a static asset in prod
 	export const prerender = true;
 </script>
 
 <svelte:head>
-	<title>Index</title>
+	<title>Tanner Bleakley</title>
 </svelte:head>
 
 <div class="content">
 	<h1>Hi I am <a href="https://www.tannerbleakley.com">Tanner</a></h1>
-
 	<p>
 		I am a software engineer based in the Charleston South Carolina area. I have
 		a passion for building software that improves the lives of people.
