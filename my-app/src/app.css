@@ -1,58 +1,55 @@
 @import '@fontsource/fira-mono';
 
 :root {
-	font-family: Arial, -apple-system, Roboto, Oxygen, Ubuntu,
-		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family: 'Times New Roman', Times, serif, -apple-system, Roboto, Oxygen,
+		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	--pure-white: #ffffff;
 	--primary-color: rgb(29, 53, 87);
 	--secondary-color: rgb(168, 218, 220);
 	--tertiary-color: #e7edff;
 	--accent-color: rgb(230, 57, 70);
-  --accent-color-dark: rgb(0, 60, 255);
-  --accent-color-light: rgb(255, 255, 255);
+	--accent-color-dark: rgb(0, 60, 255);
+	--accent-color-light: rgb(255, 255, 255);
 	--heading-color: rgba(1, 14, 20, 0.7);
 	--text-color: #444444;
 	--background-without-opacity: rgba(241, 250, 238, 0.7);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
-  --column-margin-bottom: 4rem;
-  --column-margin-left: 4rem;
-  --column-margin-right: 4rem;
-  --column-padding-top: 2rem;
-  --column-padding-bottom: 2rem;
-  --column-padding-left: 2rem;
-  --column-padding-right: 2rem;
-  --column-border-width: 1px;
-  --column-border-color: #e6e6e6;
-  --column-border-style: solid;
-  --column-border-radius: 0;
-  --column-background-color: #ffffff;
-  --column-background-opacity: 0.7;
-  --column-background-image: none;
-  --column-background-repeat: no-repeat;
-  --column-background-position: center center;
-  --column-background-size: cover;
-  --column-background-attachment: scroll;
-  --column-box-shadow: none;
-  --column-box-shadow-color: #e6e6e6;
-  --column-box-shadow-offset-x: 0;
-  --column-box-shadow-offset-y: 0;
+	--column-margin-bottom: 4rem;
+	--column-margin-left: 4rem;
+	--column-margin-right: 4rem;
+	--column-padding-top: 2rem;
+	--column-padding-bottom: 2rem;
+	--column-padding-left: 2rem;
+	--column-padding-right: 2rem;
+	--column-border-width: 1px;
+	--column-border-color: #e6e6e6;
+	--column-border-style: solid;
+	--column-border-radius: 0;
+	--column-background-color: #ffffff;
+	--column-background-opacity: 0.7;
+	--column-background-image: none;
+	--column-background-repeat: no-repeat;
+	--column-background-position: center center;
+	--column-background-size: cover;
+	--column-background-attachment: scroll;
+	--column-box-shadow: none;
+	--column-box-shadow-color: #e6e6e6;
+	--column-box-shadow-offset-x: 0;
+	--column-box-shadow-offset-y: 0;
 }
-
 
 /*
  * Base styles
  */
-  
+
 html {
-  font-size: 16px;
-  line-height: 1.5;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+	font-size: 1rem;
+	line-height: 1.5;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
 }
-
-
 
 body {
 	min-height: 100vh;
@@ -97,7 +94,7 @@ p {
 
 p {
 	line-height: 1.5;
-  color:rgb(5, 16, 6)
+	color: rgb(5, 16, 6);
 }
 
 a {
