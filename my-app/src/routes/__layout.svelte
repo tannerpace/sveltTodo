@@ -4,13 +4,11 @@
 </script>
 
 <Header />
-
 <main>
 	<slot />
 </main>
-
 <footer>
-	<p>   {"Copyright © "} {new Date().getFullYear()}<br>Tanner Bleakley <br>      </p>
+	<p>{'Copyright © '} {new Date().getFullYear()}<br />Tanner Bleakley <br /></p>
 </footer>
 
 <style>
@@ -31,15 +29,5 @@
 		justify-content: center;
 		align-items: center;
 		padding: 40px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 40px 0;
-		}
 	}
 </style>

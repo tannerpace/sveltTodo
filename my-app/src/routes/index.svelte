@@ -22,8 +22,9 @@
 	<h1>Hi I am <a href="https://www.tannerbleakley.com">Tanner</a></h1>
 
 	<p>
-    I am a software engineer based in the Charleston South Carolina area.
-    I have a passion for building software that improves the lives of people.
+		I am a software engineer based in the Charleston South Carolina area. I have
+		a passion for building software that improves the lives of people.
+	</p>
 </div>
 
 <style>
