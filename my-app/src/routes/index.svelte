@@ -5,7 +5,7 @@
 
 	export const router = browser;
 
-	export const prerender = true;
+	export const prerender = false;
 </script>
 
 <svelte:head>
